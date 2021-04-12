@@ -1,0 +1,78 @@
+                                                                                                        * {
+                                                                                                            box-sizing: border-box;
+                                                                                                        }
+                                                                                                        
+                                                                                                        body {
+                                                                                                            margin: 0;
+                                                                                                            font-family: Arial, Helvetica, sans-serif;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .nav {
+                                                                                                            display: flex;
+                                                                                                            background-color: black;
+                                                                                                            padding: 20px 30px;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .nav a {
+                                                                                                            color: white;
+                                                                                                            text-decoration: none;
+                                                                                                            padding: 15px 25px;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .nav a:hover {
+                                                                                                            background-color: white;
+                                                                                                            color: black;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .row {
+                                                                                                            display: flex;
+                                                                                                            flex-wrap: wrap;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .side {
+                                                                                                            flex: 20%;
+                                                                                                            background-color: rgb(253, 149, 13);
+                                                                                                            padding: 15px;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .main {
+                                                                                                            flex: 80%;
+                                                                                                            background-color: white;
+                                                                                                            padding: 20px;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .dummy {
+                                                                                                            background-color: rgb(245, 194, 117);
+                                                                                                            width: 100%;
+                                                                                                            padding: 25px;
+                                                                                                            height: 20%;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .img1 {
+                                                                                                            width: 100%;
+                                                                                                            padding: 2px;
+                                                                                                            height: 100%;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .img2 {
+                                                                                                            width: 100%;
+                                                                                                            padding: 2px;
+                                                                                                            height: 100%;
+                                                                                                        }
+                                                                                                        
+                                                                                                        .img3 {
+                                                                                                            width: 100%;
+                                                                                                            padding: 2px;
+                                                                                                            height: 100%;
+                                                                                                        }
+                                                                                                        
+                                                                                                        footer {
+                                                                                                            background-color: black;
+                                                                                                            color: white;
+                                                                                                            padding: 2px;
+                                                                                                            text-align: center;
+                                                                                                        }
+                                                                                                        
+                                                                                                        footer:hover {
+                                                                                                            color: red;
+                                                                                                        }
